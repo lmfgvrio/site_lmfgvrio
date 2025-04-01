@@ -1,0 +1,146 @@
+.navbar-container {
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-container.hidden {
+  transform: translateY(-100%);
+}
+
+.header-divider.hidden {
+  visibility: hidden;
+  transition: visibility 0.3s ease;
+}
+
+.navbar-container.scrolled {
+  background-color: var(--azul-principal);
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+  max-height: 3rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--dourado-principal);
+}
+
+.header-divider {
+  margin: 0 auto;
+  width: 90%;
+  border: 0;
+  height: 0.02rem;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.7rem;
+    height: 1.3rem;
+    background: transparent;
+    border: none;
+    z-index: 1001;
+    padding: 0;
+  }
+
+  .botao-line {
+    width: 100%;
+    height: 0.2rem;
+    background: white;
+    transition: all 0.3s ease;
+  }
+
+  .botao-line.open:nth-child(1) {
+    transform: rotate(45deg) translateY(0.765rem);
+  }
+
+  .botao-line.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .botao-line.open:nth-child(3) {
+    transform: rotate(-45deg) translateY(-0.76rem);
+  }
+
+  .navbar {
+    padding: 1.5rem 2rem;
+  }
+
+  .navbar-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 70%;
+    max-width: 350px;
+    background: var(--azul-principal);
+    flex-direction: column;
+    justify-content: space-between;
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .navbar-links.active {
+    right: 0;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8rem;
+    gap: 2rem;
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar-links a {
+    font-size: 1.5rem;
+  }
+
+  .SocialLinks {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .botao {
+    display: none;
+  }
+}

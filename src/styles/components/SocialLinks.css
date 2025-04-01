@@ -1,0 +1,17 @@
+.SocialLinks a .social-icon {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon.white {
+  color: white;
+}
+
+.social-icon.black {
+  color: black;
+}
+
+.social-icon:hover {
+  color: var(--dourado-principal);
+}

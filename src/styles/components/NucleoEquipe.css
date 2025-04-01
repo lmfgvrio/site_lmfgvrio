@@ -1,0 +1,27 @@
+.nucleo-equipe {
+  margin-bottom: 3rem;
+}
+
+.nucleo-equipe-titulo {
+  font-size: 3rem;
+  color: var(--azul-principal);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nucleo-cards-container{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .nucleo-equipe-titulo {
+    font-size: 2rem;
+  }
+}

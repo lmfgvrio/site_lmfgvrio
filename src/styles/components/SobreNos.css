@@ -1,0 +1,30 @@
+.sobre-nos {
+  width: 100%;
+  padding: 3rem 0rem;
+  text-align: center;
+  color: #3D3D3D;
+  align-items: center;
+}
+  
+.sobre-nos h2 {
+margin-top: -1.5rem;
+font-size: 3.5rem;
+margin-bottom: 1rem;
+color: var(--azul-principal);
+}
+
+.sobre-nos p {
+text-align: justify;
+font-size: 1.1rem;
+line-height: 1.6;
+max-width: 900px;
+margin: 0 auto;
+color: #3D3D3D;
+}
+
+@media (max-width: 768px) {
+  .sobre-nos {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

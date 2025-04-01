@@ -1,0 +1,38 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-imagem {
+  height: 4rem;
+  width: auto;
+}
+
+.separator {
+  width: 0.08rem;
+  height: 4rem;
+  margin: 0 1rem;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6rem;
+}
+
+.lmf {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.fgv-rio {
+  font-size: 1rem;
+  font-weight: normal;
+}
+  

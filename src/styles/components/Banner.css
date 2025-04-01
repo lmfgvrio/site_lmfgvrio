@@ -1,0 +1,117 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+  
+.background-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+  
+.banner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+.inicio-logo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  color: white;
+  margin-top: 7rem;
+}
+
+.logo-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+  color: white;
+  margin-top: 7rem;
+}
+  
+.inicio-logo-imagem {
+  position: relative;
+  z-index: 2;
+  width: 13rem;
+  height: auto;
+}
+
+.banner-logo-imagem {
+  height: 13rem;
+  width: auto;
+}
+
+.banner-separator {
+  width: 0.08rem;
+  height: 13rem;
+  background-color: white;
+  margin: 0 1rem;
+}
+
+.banner-logo-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6rem;
+}
+
+.page-name {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+  
+.inicio-logo-banner p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.logo-banner p{
+  font-size: 1.1rem;
+}
+  
+.tela-azul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--azul-principal);
+  opacity: 0.6;
+  z-index: 0;
+}
+  
+.page-name {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logo-banner {
+    flex-direction: column;
+  }
+
+  .banner-separator {
+    display: none;
+  }
+
+  .page-name {
+    text-align: center;
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,25 @@
+.inscricao {
+  background-color: var(--azul-principal);
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+  
+.inscricao-link {
+  font-size: 3rem;
+  margin: 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.inscricao-link:hover {
+  color: var(--dourado-principal);
+}
+  
+@media (max-width: 768px) {
+  .inscricao-link{
+    font-size: 2rem;
+  }
+}

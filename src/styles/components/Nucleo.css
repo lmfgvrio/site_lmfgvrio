@@ -1,0 +1,27 @@
+.nucleo:nth-child(even) {
+  background-color: #06255309;
+}
+
+.nucleo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 100rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-left: 0;
+}
+
+.nucleo-titulo {
+  color: var(--azul-principal);
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .nucleo-titulo{
+    font-size: 1.5rem;
+  }
+}

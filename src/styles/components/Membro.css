@@ -1,0 +1,72 @@
+.membro {
+    background-color: #f9f9f9;
+    width: 12rem;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .membro:hover {
+    transform: translateY(-3px);
+  }
+  
+  .membro-imagem {
+    width: 100%;
+    height: 12rem;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background-color: #ddd;
+  }
+  
+  .membro-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .membro-nome {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0 0.2rem;
+    color: #3D3D3D;
+    display: block;
+  }
+  
+  .membro-posicao {
+    font-size: 1rem;
+    color: #3D3D3D;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .membro-linkedin {
+    margin-top: 0.5rem;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .membro {
+      width: 160px;
+      padding: 0.8rem;
+    }
+    
+    .membro-imagem {
+      height: 160px;
+    }
+  }
+  

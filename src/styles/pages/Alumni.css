@@ -1,0 +1,42 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.profile {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 14rem;
+}
+
+.profile-header {
+    color: var(--azul-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.05rem solid var(--azul-principal);
+    padding-bottom: 0.5rem;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.linkedin-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.position {
+    font-size: 0.8rem;
+    color: #3D3D3D;
+    padding-top: 0.5rem;
+}
+
