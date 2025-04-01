@@ -4,6 +4,8 @@ import '../styles/components/TextoPS.css';
 function Descricao() {
   return (
     <>
+
+    {/* Aqui vocês conseguem mudar o texto que fala sobre o processo de trainee (mudar apenas textos em branco) */}
       <h2>DESCRIÇÃO</h2>
       <p>
         <strong>Processo de Trainee – LMF FGV Rio</strong>

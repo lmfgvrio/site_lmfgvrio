@@ -4,6 +4,11 @@ import Banner from '../components/Banner';
 import Nucleo from '../components/Nucleo';
 
 function Projetos() {
+
+  // Para adicionar um projeto, encontre o código com o formato "const -núcleo do projeto-", copie código em chaves (incluindo a vírgula após) e adicione logo depois. Atualize o projeto com imagem, titulo e descrição. Para adicionar um= novo projeto, apenas inserir "const -nome  do projeto- = []" e colocar as informações do projeto dentro dos colchetes
+
+  // Para adicionar a imagem de um projeto, colocar a imagem dentro da pasta "Projetos". Localização da pasta projetos: public->Projetos
+
   const privateEquity = [
     {
       imagem: 'Projetos/hig.jpg',

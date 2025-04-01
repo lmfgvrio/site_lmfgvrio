@@ -4,6 +4,7 @@ import '../styles/components/TextoPS.css';
 function Etapas() {
   return (
     <>
+    {/* Aqui vocês conseguem atualizar as etapas do processo seletivo (mudar apenas textos em branco) */}
       <h2>ETAPAS</h2>
       <p>
         <strong>1ª Etapa – Capacitação teórica e visitas técnicas</strong>

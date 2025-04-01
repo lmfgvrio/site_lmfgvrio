@@ -4,7 +4,6 @@ import '../styles/pages/Alumni.css';
 import Banner from '../components/Banner';
 
 function Alumni() {
-  // Dados dos Alumni: adicione quantos perfis desejar
   const alumniList = [
     { name: 'Caio Lakiss', position: 'Fundador e Presidente', linkedin: 'https://www.linkedin.com/in/caiolakiss/' },
     { name: 'Newton Novo', position: 'Presidente', linkedin: 'Sem Linkedin' },
@@ -31,6 +30,7 @@ function Alumni() {
     { name: 'Lucas Valle', position: 'Membro', linkedin: 'https://www.linkedin.com/in/lucas-valle-01a563263/' },
     { name: 'Leonardo Melito', position: 'Membro', linkedin: 'https://www.linkedin.com/in/leonardo-juliano-melito-dos-santos-5548851b6/' },
     { name: 'Renato Wanderley', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/renatowanderley/' },
+    // Para adicionar um membro, copie o código em chaves (incluindo a vírgula após) e adicione logo depois. Atualize o membro com nome, posição e Linkedin
   ];
 
   return (

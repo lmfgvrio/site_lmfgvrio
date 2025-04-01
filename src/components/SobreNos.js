@@ -4,6 +4,7 @@ import '../styles/components/SobreNos.css';
 function SobreNos() {
   return (
     <div className="sobre-nos">
+      {/* Aqui vocês conseguem modificar o "Sobre nós" (mudar apenas os textos em branco) */}
       <h2>Sobre Nós</h2>
       <p>
         A Liga de Mercado Financeiro da FGV Rio nasceu com o propósito de transformar o interesse pelo mercado financeiro 

@@ -5,6 +5,7 @@ function MissoesVisaoValores() {
   return (
     <div className='missoes-visao-valores'>
 
+      {/* Aqui vocês conseguem atualizar a missão, visão e os valores (mudar apenas textos em branco) */}
       <div className='subitem-missao-visao-valores'>
         <h3>Missão</h3>
         <p>

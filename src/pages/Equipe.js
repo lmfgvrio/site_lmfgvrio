@@ -4,6 +4,13 @@ import Banner from '../components/Banner';
 import NucleoEquipe from '../components/NucleoEquipe';
 
 function Equipe() {
+
+
+  // Para adicionar um membro, encontre o código com o formato "const -área do membro-", copie código em chaves (incluindo a vírgula após) e adicione logo depois. Atualize o membro com nome, posição, Linkedin e foto. Para adicionar uma nova área, apenas inserir "const -nome da area- = []" e colocar os membros dentro dos colchetes
+
+  // Para adicionar a foto de um membro, colocar a imagem dentro da pasta "Equipe". Localização da pasta projetos: public->Equipe
+
+
   const diretoria = [
     { nome: 'Pedro Migon', posicao: 'Presidente', linkedin: 'http://www.linkedin.com/in/pedro-migon', imagem: "Membros/PedroMigon_Presidente.jpg"  },
     { nome: 'João Lemos' , posicao: 'Vice Presidente ', linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-f-m-lemos-de-moraes-97bb38255', imagem: "Membros/JoãoLemos_VicePresidente.jpg" },

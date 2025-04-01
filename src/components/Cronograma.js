@@ -6,7 +6,7 @@ function Cronograma() {
     <>
       <h2>CRONOGRAMA</h2>
       <p>
-        {/* Atualiza aqui as datas do processo seletivo */}
+        {/* Aqui vocês conseguem atualizar o cronograma do processo seletivo (mudar apenas textos em branco) */}
         <strong>Inscrições:</strong> 27/01 a 22/02
         <br />
         <br />
