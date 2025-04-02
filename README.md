@@ -10,10 +10,10 @@
 ### 1.2. Conecte a conta do GitHub no VSCode
 
 - Primeiro clique no botão de "Contas"
-[Imagem](/public/Guia//Captura%20de%20tela%202025-04-01%20204854.jpg)
+![Imagem](/public/Guia//Captura%20de%20tela%202025-04-01%20204854.jpg)
 
 - Clique em "Entre com o GitHub" e depois faça o login no site
-[Imagem](/public/Guia/Captura%20de%20tela%202025-04-01%20205134.jpg)
+![Imagem](/public/Guia/Captura%20de%20tela%202025-04-01%20205134.jpg)
 
 ### 1.3 Abra uma pasta no VSCode (a qual você irá colocar o site no seu computador)
 
