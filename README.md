@@ -7,7 +7,7 @@
 - VSCode -> [Instale aqui](https://code.visualstudio.com/download)
 - Git -> [Instale aqui](https://git-scm.com/downloads)
 
-### 1.2. Conecte a conta do GitHub no VSCode
+### 1.2 Conecte a conta do GitHub no VSCode
 
 - Primeiro clique no botão de "Contas"
 ![Imagem](/public/Guia//Captura%20de%20tela%202025-04-01%20204854.jpg)
