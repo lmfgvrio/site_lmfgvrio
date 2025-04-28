@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Inicio from './pages/Inicio';
 import ProcessoSeletivo from './pages/ProcessoSeletivo';
@@ -12,6 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
