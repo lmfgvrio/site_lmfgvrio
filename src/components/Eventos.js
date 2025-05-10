@@ -11,7 +11,7 @@ function Eventos() {
   const [eventos, setEventos] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/eventos')
+    fetch('/api/eventos')
       .then(res => res.json())
       .then(data => setEventos(data))
       .catch(err => console.error('Erro ao carregar eventos:', err));
