@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/pages/ProcessoSeletivo.css';
 import Banner from '../components/Banner';
 import Descricao from '../components/Descricao';

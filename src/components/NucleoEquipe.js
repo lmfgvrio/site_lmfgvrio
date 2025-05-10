@@ -1,4 +1,3 @@
-import React from 'react';
 import Membro from './Membro';
 import '../styles/components/NucleoEquipe.css';
 

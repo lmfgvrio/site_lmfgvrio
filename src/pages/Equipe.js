@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/pages/Equipe.css';
 import Banner from '../components/Banner';
 import NucleoEquipe from '../components/NucleoEquipe';

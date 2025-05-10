@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/components/Banner.css';
 
 const Banner = ({isHomePage = true, backgroundImage, PageName = 'Início'}) => {

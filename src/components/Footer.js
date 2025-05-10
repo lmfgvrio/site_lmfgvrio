@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from './Logo';
 import SocialLinks from './SocialLinks';
 import '../styles/components/Footer.css';
