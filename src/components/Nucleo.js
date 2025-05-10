@@ -1,4 +1,3 @@
-import React from 'react';
 import Projeto from './Projeto';
 import '../styles/components/Nucleo.css';
 

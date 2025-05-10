@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/pages/Projetos.css';
 import Banner from '../components/Banner';
 import Nucleo from '../components/Nucleo';
