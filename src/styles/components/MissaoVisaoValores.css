@@ -45,7 +45,7 @@
   line-height: 1.5;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1100px) {
   .missoes-visao-valores {
     flex-direction: column;
     gap: 1rem;
