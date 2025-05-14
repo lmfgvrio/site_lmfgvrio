@@ -36,7 +36,7 @@ function Equipe() {
   const macro = [
     { nome: 'Rodrigo Schroeder', posicao: 'Coordenador', linkedin: 'http://www.linkedin.com/in/rodrigo-schroeder', imagem: "Membros/Rodrigo_Diretor-Parcerias.jpg"  },
     { nome: 'Julia Stepansky', posicao: 'Membro', linkedin: 'https://www.linkedin.com/in/julia-stepansky-9aa025319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', imagem: "Membros/JuliaStepansky_DiretoraInst.jpg"  },
-    { nome: 'Antônio Talamini', posicao: 'Membro', linkedin: 'https://www.linkedin.com/in/antonio-talamini-b13b78321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', imagem: "Membros/AntonioTalamini_MNM.jpg"  },
+    { nome: 'Antonio Talamini', posicao: 'Membro', linkedin: 'https://www.linkedin.com/in/antonio-talamini-b13b78321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', imagem: "Membros/AntonioTalamini_MNM.jpg"  },
   ]
 
   return (
