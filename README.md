@@ -25,10 +25,12 @@
 
 ```
 npm i react-router
+npm i swiper
+npm i -g vercel
 npm install react-icons --save
-npm start
+vercel dev    
 ```
-Após o `npm start`, se tudo foi feito corretamente, o site será aberto no navegador com o link [http://localhost:3000](http://localhost:3000).
+Após o `vercel dev`, se tudo foi feito corretamente, o site será aberto no navegador com o link [http://localhost:3000](http://localhost:3000).
 
 
 
